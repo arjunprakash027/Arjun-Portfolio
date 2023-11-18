@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import streamlit.components.v1 as components
 from custom_html import GITHUB_PROFILE,LINKEDIN_PROFILE
 from home_page import home_page
@@ -46,7 +45,7 @@ if selected_page == "🔭 Projects":
 if selected_page == "🚀 Blogs":
     blogs()
 
-if selected_page == "🛣️ Career":
+if selected_page == "🛣️ Career and Freelancing":
     freelancing()
     career()
     acheivements()
