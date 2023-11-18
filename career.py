@@ -60,3 +60,20 @@ def open_source():
         with ex3:
             st.write("❥ I keep up the project with changes in notion API and add new features once in a while.")
         
+def freelancing():
+    st.title("Freelancing")
+    with st.expander("Airlift"):
+        st.link_button("github link","https://github.com/TheAcharya/Airlift")
+
+        ex1,ex2,ex3,ex4 = st.columns(4)
+
+        with ex1:
+            st.write("❥  Airlift is an python cli tool that can upload csv data to airtable without hassle")
+
+        with ex2:
+            st.write("❥  Airlift allows to upload attachment to airtable, which native upload does not support yet")
+
+        with ex3:
+            st.write("❥  Airlift is free and allows to upload unlimited number ofrows, where the native upload is capped until only 25,000 rows")
+        with ex4:
+            st.write("❥ Worked as a freelancer with an Singapore film makerto build this project primarily for his in house software suite")
