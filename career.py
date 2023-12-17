@@ -47,18 +47,7 @@ def acheivements():
 def open_source():
     st.title("Open Source")
     with st.expander("csv2notion-neo"):
-        st.link_button("github link","https://github.com/TheAcharya/csv2notion-neo/tree/master")
-
-        ex1,ex2,ex3 = st.columns(3)
-
-        with ex1:
-            st.write("❥ csv2notion-neo is an python based cli tool that helps to upload and merge csv files to notion database")
-
-        with ex2:
-            st.write("❥ Orginally developed by Vladilen Zhdanov and idea by Vigneswaran Rajkumar, the project is currently maintained by me")
-
-        with ex3:
-            st.write("❥ I keep up the project with changes in notion API and add new features once in a while.")
+        pass
         
 def freelancing():
     st.title("Freelancing")
@@ -74,6 +63,18 @@ def freelancing():
             st.write("❥  Airlift allows to upload attachment to airtable, which native upload does not support yet")
 
         with ex3:
-            st.write("❥  Airlift is free and allows to upload unlimited number ofrows, where the native upload is capped until only 25,000 rows")
-        with ex4:
-            st.write("❥ Worked as a freelancer with an Singapore film makerto build this project primarily for his in house software suite")
+            st.write("❥  Airlift is free and allows to upload unlimited number of rows, where the native upload is capped until only 25,000 rows")
+
+    with st.expander("csv2notion-neo"):
+        st.link_button("github link","https://github.com/TheAcharya/csv2notion-neo/tree/master")
+
+        ex1,ex2,ex3 = st.columns(3)
+
+        with ex1:
+            st.write("❥ csv2notion-neo is an python based cli tool that helps to upload and merge csv files to notion database")
+
+        with ex2:
+            st.write("❥ Orginally developed by Vladilen Zhdanov and idea by Vigneswaran Rajkumar, the project is currently maintained by me")
+
+        with ex3:
+            st.write("❥ I keep up the project with changes in notion API and add new features once in a while.")

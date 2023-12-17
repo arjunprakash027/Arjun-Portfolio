@@ -49,7 +49,6 @@ if selected_page == "🛣️ Career and Freelancing":
     freelancing()
     career()
     acheivements()
-    open_source()
 
 if selected_page == "🪙 Resources I learn from":
     learnings()
